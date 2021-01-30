@@ -240,10 +240,15 @@
 }
 @keyframes first-fishs {
 	0% {transform: translateX(-100px) rotateY(40deg);}
-	25%{transform: translateX(-400px) rotateY(-40deg);}
-	50% {transform: translateX(-700px) rotateY(40deg);}
-	75%{transform: translateX(-1000px) rotateY(-40deg);}
-	100% {transform: translateX(-1300px) rotateY(40deg);}
+	15%{transform: translateX(-400px) rotateY(-40deg);}
+	30% {transform: translateX(-700px) rotateY(40deg);}
+	45%{transform: translateX(-1000px) rotateY(-40deg);}
+	60% {transform: translateX(-1300px) rotateY(40deg);}
+	75% {transform: translateX(-1000px) rotateY(180deg);}
+	85%{transform: translateX(-700px) rotateY(220deg);}
+	95% {transform: translateX(-400px) rotateY(180deg);}
+	100%{transform: translateX(-100px) rotateY(220deg);}
+
 
 }
 @keyframes bubbles {
